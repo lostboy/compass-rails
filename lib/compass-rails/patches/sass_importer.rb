@@ -1,7 +1,7 @@
 klass = if defined?(Sass::Rails::SassTemplate)
   Sass::Rails::SassTemplate
 else
-  Sprockets::SassTemplate
+  Sprockets::SassProcessor
 end
 
 klass.class_eval do
